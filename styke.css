@@ -1,0 +1,43 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.block {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 24px;
+    border: 1px solid #ccc;
+}
+
+#block1 {
+    background-color: #f2f2f2;
+}
+
+#block2 {
+    background-color: #d9d9d9;
+}
+
+#block3 {
+    background-color: #bfbfbf;
+}
+
+#block4 {
+    background-color: #a6a6a6;
+}
+
+.phone-number {
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: #fff;
+    padding: 10px 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    font-size: 18px;
+    color: #333;
+}
